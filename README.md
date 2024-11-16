@@ -1,21 +1,59 @@
 # Testing
 
 ### 7 Testing Principles
-======================================================================================================== <br>
-| Testing is context dependent      |                                                                  | <br>
-| Exhaustive testing is impossible  | Perfect testing does not exist                                   | <br>
-| Defect clustering                 |                                                                  | <br>
-| Early testing is always preferred | Test as early as possible                                        | <br>
-| Pesticide paradox                 | When we repeat the same tests, they become ineffective over time | <br>
-| Testing shows presence of defects | - Testing can show us that there are problems                    | <br>
-|                                   | - CANNOT say that there are no bugs                              | <br>
-| Absence-of-errors fallacy         |                                                                  | <br>
+
+| Principle                         | Description                                                                            |
+|-----------------------------------|----------------------------------------------------------------------------------------|
+| Testing is context dependent      |                                                                                        | 
+| Exhaustive testing is impossible  | Perfect testing does not exist                                                         | 
+| Defect clustering                 |                                                                                        | 
+| Early testing is always preferred | Test as early as possible                                                              | 
+| Pesticide paradox                 | When we repeat the same tests, they become ineffective over time                       | 
+| Testing shows presence of defects | - Testing can show us that there are problems <br> - CANNOT say that there are no bugs |
+| Absence-of-errors fallacy         |                                                                                        | 
+
+
+### Unit testing
+
+- Each test is `public void`
+- `@Before`
+  - Gets executed before each test
+  - Prepares data for the test
+
+
+### 3 A Pattern
+`Arrange` - Preconditions - The data should correspond to the situation we want to recreate. <br>
+`Act` - Test a single behavior. <br>
+`Assert` - Post conditions - Expected behavior. <br>
+
+```
+@Test
+public void depositShouldAddMoney() {
+    BankAccount account = new BankAccount(); // Arrange
+    account.deposit(50); // Act
+    Assert.assertTrue(account.getBalance() == 50); // Assert
+}
+```
+
+<br>
+
+Exception testing
+```
+@Test(expected - IllegalArgumentException.class) // Assert
+public void depositNegativeShouldNotaddMoney() {
+    BankAccount account = new BankAccount(); // Arrange
+    account.deposit(-50); // Act
+}
+```
+
+
+
+
 
 
 Manual testing
 Automated test
 Test suite
-Unit test
 Integration test
 TDD
 
