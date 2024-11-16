@@ -7,9 +7,9 @@
 | Defect clustering                 |                                                                  | <br>
 | Early testing is always preferred | Test as early as possible                                        | <br>
 | Pesticide paradox                 | When we repeat the same tests, they become ineffective over time | <br>
-| Testing shows presence of defects | - Testing can show us that there are problems
-|                                   | - CANNOT say that there are no bugs
-| Absence-of-errors fallacy         |
+| Testing shows presence of defects | - Testing can show us that there are problems                    | <br>
+|                                   | - CANNOT say that there are no bugs                              | <br>
+| Absence-of-errors fallacy         |                                                                  | <br>
 
 
 Manual testing
