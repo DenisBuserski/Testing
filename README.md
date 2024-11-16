@@ -1,12 +1,12 @@
 # Testing
 
 ### 7 Testing Principles
-========================================================================================================
-| Testing is context dependent      |                                                                  |
-| Exhaustive testing is impossible  | Perfect testing does not exist                                   |
-| Defect clustering                 |                                                                  |
-| Early testing is always preferred | Test as early as possible                                        |
-| Pesticide paradox                 | When we repeat the same tests, they become ineffective over time |
+======================================================================================================== <br>
+| Testing is context dependent      |                                                                  | <br>
+| Exhaustive testing is impossible  | Perfect testing does not exist                                   | <br>
+| Defect clustering                 |                                                                  | <br>
+| Early testing is always preferred | Test as early as possible                                        | <br>
+| Pesticide paradox                 | When we repeat the same tests, they become ineffective over time | <br>
 | Testing shows presence of defects | - Testing can show us that there are problems
 |                                   | - CANNOT say that there are no bugs
 | Absence-of-errors fallacy         |
