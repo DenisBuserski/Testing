@@ -46,17 +46,8 @@ public void depositNegativeShouldNotaddMoney() {
 }
 ```
 
-
-
-
-
-
-
-
-
-- [What is Integration Testing? Software Testing Tutorial](https://www.youtube.com/watch?v=QYCaaNz8emY)
 - [Unit and Integration testing COMPARED](https://www.youtube.com/watch?v=pf6Zhm-PDfQ)
-- [Важността на качествения код в тестовете](https://www.youtube.com/watch?v=eUn5FOdkinc&list=WL&index=93&t=31s)
+
 - [Unit testing in Java: Mockist vs classical style](https://www.youtube.com/watch?v=dOVz-VE06X4&list=WL&index=4&t=6s)
-- [Java Testing - JUnit 5 Crash Course](https://www.youtube.com/watch?v=flpmSXVTqBI&list=WL&index=58)
+
 - [What is JUnit? | Why Mockito?](https://www.youtube.com/watch?v=eILy4p99ac8&list=WL&index=57)
